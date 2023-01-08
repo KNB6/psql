@@ -1,0 +1,10 @@
+[Unit]
+Description=scanchanges
+
+[Service]
+type=simple
+ExecStart=/home/kaan/script.sh
+Restart=always
+
+[Install]
+WantedBy=multi.user.target
